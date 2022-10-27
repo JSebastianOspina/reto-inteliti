@@ -5,7 +5,7 @@ De manera intencionada, se ha expuesto el archivo .env de docker-compose y de la
 2) Entrar a la carpeta del repositorio.
 3) Iniciar los contenedores.
 
-> docker-compose -d up
+> docker-compose up -d
 
 4) Entrar al contenedor web.
 >docker-compose exec webserver bash
